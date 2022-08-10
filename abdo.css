@@ -1,0 +1,42 @@
+h1{
+    width: 200px;
+    height: 50px;
+    background-color: teal;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center ;
+    padding: 10px;
+    transition: all 1s;
+}
+
+h1:hover {
+    width: 210px;
+    height: 70px;
+    background-color:  rgb(12, 211, 211);
+}
+
+.continer{
+  width: 460px;
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.box{
+   width: 150px;
+   height: 150px;
+   background-color: teal;
+   margin: 1px;
+   transition: all 1s;
+}
+
+.box:hover{
+    background-color: rgb(12, 211, 211);
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
